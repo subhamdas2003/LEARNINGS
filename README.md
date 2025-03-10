@@ -1,0 +1,2 @@
+# LEARNINGS
+my learning journey
