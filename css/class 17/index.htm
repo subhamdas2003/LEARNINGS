@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* element selector */
+/*         
+        div{
+             background-color: red;
+        } 
+ */
+
+        /* class selector */
+        .rgb{
+            background-color: rgb(0, 255, 183);
+            color: black;
+
+        }
+        /* id selector */
+        #blue{
+            background-color: blue;
+            color: white;
+        }
+
+        /* child selector */
+        #blue>p{
+            /* background-color: yellow; */
+            color: rgb(234, 17, 28);
+
+        }
+
+        /* universal selector */
+        *{
+            margin: 10px;
+            padding: 10px;
+            
+        }
+
+
+        /* pseudo selector */
+        a:visited{
+            color: rgb(0, 255, 132);
+        }
+
+        a:link{
+            color: rgb(0, 0, 0);
+        }
+
+        a:active{
+            background-color: rgb(0, 255, 81);
+        }
+        a:hover{
+            color: rgb(251, 7, 7);
+        }
+        
+        /* first child pseudo selector */
+        p:first-child{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="rgb">
+        i am a 
+        
+        
+    </div>
+
+    <div id="blue">
+        i am another div
+
+        <p>im a chillf selector</p>
+    </div>
+
+    <div>
+        <a href="www.instagram.com">Instagram</a>
+        <a href="GFG.java">gfg</a>
+    </div>
+
+    <main>
+        <p>im first</p>
+        <p>im second</p>
+    </main>
+</body>
+</html>
